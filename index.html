@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tamba Books - A Semente da Palavra</title>
+  <style>
+    :root {
+      --primary-color: #2a3d45;
+      --accent-color: #d8a31a;
+      --bg-color: #fdfaf6;
+      --text-color: #333;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .book-image {
+      flex: 1 1 300px;
+      text-align: center;
+    }
+
+    .book-image img {
+      max-width: 100%;
+      height: auto;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    .book-info {
+      flex: 1 1 400px;
+    }
+
+    .book-info h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: var(--primary-color);
+    }
+
+    .book-info p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .cta-button {
+      background-color: var(--accent-color);
+      color: white;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #b88211;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .container {
+        flex-direction: column;
+      }
+
+      .book-info {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Editora Tamba Books</h1>
+    <p>Literatura que floresce</p>
+  </header>
+
+  <main class="container">
+    <div class="book-image">
+      <img src="tambabooks-orestes-capa.jpg" alt="Capa do Livro">
+    </div>
+    <div class="book-info">
+      <h2>#Segundou com Orestes</h2>
+      <p><strong>Autor:</strong> Brancalion</p>
+      <p>“O tal do cara que gosta das segundas”, sim, este é o Orestes... a temível Segunda-feira chegou?! PRa ele não! Orestes tem verdadeira paixão pelo primeiro dia da semana, pra ele, segunda-feira não é o tradicional dia do mau humor, o dos inícios difíceis ou da triste realidade que o fim de semana se foi... é dia de #segundou na melhor vibe e bom humor! Neste livro estão reunidas 52 tiras publicadas ao longo do ano de 2022/2023 no Portal Sorocaba e no Instagram oficial @segundoucomorestes.</p>
+      <a href="https://www.amazon.com.br/Segundou-com-Orestes-Mauricio-Brancalion/dp/6599627250/ref=sr_1_1?crid=4F9S57CXDELY&dib=eyJ2IjoiMSJ9.zAK47hdMVWcjZInwDOjikPVUX_k2losV7DlJk3pRQh8rDOZLesmhq88ipBvkpu3D.1P4CHaatSByzHyqw_zArswS6IPIuD6kOyE4Z9VAmIF8&dib_tag=se&keywords=segundo+com+orestes&qid=1752770451&s=books&sprefix=%2Cstripbooks%2C223&sr=1-1" class="cta-button">Adquira o seu</a>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Editora Tamba Books. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
